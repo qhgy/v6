@@ -8,7 +8,7 @@ INSTANCE_NAME="instance-2"
 ZONE="asia-east1-b"
 
 # Subnetwork name (find it in the VPC settings)
-SUBNET_NAME="default"
+SUBNET_NAME="asia-east1"
 
 # Check if the subnet has available IPv6 ranges
 IPV6_RANGE=$(gcloud compute networks subnets describe $SUBNET_NAME \
